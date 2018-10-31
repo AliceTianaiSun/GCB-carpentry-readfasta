@@ -9,6 +9,9 @@ def read_fasta(filename):
             sequence = sequence + line
     f.close()
     return sequence 
+#check that the filename is on the command line
+#give usage help list
+
 
 if len(sys.argv) < 2:
 	print('Usage: ', sys.argv[0], '<sequence.fa>')
